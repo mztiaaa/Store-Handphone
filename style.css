@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 800px;
+}
+
+.navigasi h1 {
+    height: 80px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.navigasi img {
+    height: 170px;
+    width: 500px;
+}
+
+.menu {
+    background-color: white;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu ul a{
+    float: left;
+    margin-right: 60px;
+    font-size: 10pt;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul a:hover{
+    background-color: rgb(61, 162, 61);
+}
+
+.side-bar {
+    background-color:rgb(193, 237, 240);
+    float: left;
+    height: 450px;
+    width: 200px;
+    text-align: center;
+}
+
+.side-bar ul li {
+    list-style: none;
+    margin-top: 30px;
+    font-size: 11pt;
+    border: 1px solid white;
+    background-color: white;
+    width: 170px;
+}
+
+.side-bar ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.side-bar ul li:hover{
+    background-color: rgb(61, 162, 61);
+}
+
+.isi img {
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+
+.footer{
+    float: flex;
+    height: 300px;
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 10pt;
+    padding-top: 5px ;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.footer2 {
+    float: right;
+}
+
+.footer2 ul li {
+    list-style: none;
+    font-size: 10pt;
+    padding-top: 5px;
+}
+
+.footer2 ul li a{
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+/* PRODUK */
+.produk{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.renotosca img{
+    width: 200px;
+    height: 200px;
+}
+
+.a17 img{
+    width: 200px;
+    height: 200px;
+}
+
+.a77s img{
+    width: 200px;
+    height: 200px;
+}
+
+.reno8 img{
+    width: 200px;
+    height: 200px;
+}
+
+.a3s img{
+    width: 200px;
+    height: 200px;
+}
+
+.a5s img{
+    width: 200px;
+    height: 200px;
+}
+
+.a31 img{
+    width: 200px;
+    height: 200px;
+}
+
+.a73 img{
+    width: 200px;
+    height: 200px;
+}
+
+.f17 img{
+    width: 200px;
+    height: 200px;
+}
+
+.reno img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* LAINNYA */
+.lainnya ul li{
+    padding-top: 15px;
+}
+
+.lainnya ul li a{
+    text-decoration: none;
+    font-size: large;
+}
